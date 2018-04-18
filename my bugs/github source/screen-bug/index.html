@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ScreenBug - The "bug on screen" gif replacement</title>
+
+<script src="screenbug-min.js"></script>
+<script src="screenbug-min.js"></script>
+
+<style>
+.oldbug {color:red;font:bold 20px sans-serif;}
+.oldbug img {border:5px dashed red;vertical-align:middle;}
+.browsers {font:bold 15px sans-serif;color:skyblue;}
+.snippet {display:block;border:3px dashed orange;background:gold;padding:10px;margin:10px 20px;font:bold 16px sans-serif;color:maroon;}
+.warning {display:block;border:3px dashed red;background:rosybrown;padding:10px;margin:10px 20px;font:bold 16px sans-serif;color:maroon;}
+</style>
+
+<!--script type="text/javascript">
+var _gaq = _gaq||[];
+_gaq.push(['_setAccount', 'UA-26875564-1']);
+_gaq.push(['_trackPageview']);
+(function(){
+var ga=document.createElement('script');
+ga.type='text/javascript';
+ga.async=true;
+ga.src='http://www.google-analytics.com/ga.js';
+var s=document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga,s);
+})();
+(function() {
+var po=document.createElement('script');
+po.type='text/javascript';
+po.async=true;
+po.src='https://apis.google.com/js/plusone.js';
+var s=document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(po,s);
+})();
+</script-->
+
+</head>
+
+<body>
+  
+  <h1>ScreenBug - The "bug on screen" gif replacement</h1>
+  <b>Now in JavaScript &amp; CSS3!</b> <p/>
+
+  Hey there! <p/>
+  You know the "ancient" (1990's) animated bug on screen gif prank? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="oldbug">THIS ONE →<img src="crawling_bug.gif"/></span> <p/>
+  Well, it's got company: <p/>
+  Let me proudly present the alternative <b>crawling screen bug 2.0</b>: it uses JavaScript &amp; CSS3 so it works on most modern browsers:
+  <ul class="browsers">
+    <li>Firefox 3.5+ <span style="color:orange">(ATM seems to be broken on Firefox17 (v17.x only) on GNU/Linux (only))</span></li>
+    <li>Chrome 9+</li>
+    <li>Opera 10.5+</li>
+    <li>Safari 3.5+</li>
+    <li>Internet Explorer 9+</li>
+  </ul>
+  <p/>
+  You should find two bug specimens randomly crawling (or lurking) somewhere on your screen. They're fruit flies! :D <p/>
+  How to use? <p/>
+  Just copy the snippet below and put it in your webpage's HTML source (either in <code>&lt;head&gt;</code> or somewhere in the <code>&lt;body&gt;</code>). Repeat for more bugs.
+  <code class="snippet">&lt;script src="https://screen-bug.googlecode.com/git/screenbug-min.js"&gt;&lt;/script&gt;</code>
+  <code class="warning">Note, you may wish to use a somewhat superior alternative <a href="https://github.com/Auz/Bug">Bug</a> by Auz.</code>
+  That's it. Enjoy your crawling fella tricking your visitors. <p/>
+  Here's the <a href="http://code.google.com/p/screen-bug/source/browse/screenbug.js">readable source</a> if you're interested. <p/>
+  Please contact me for any bugs/missing features you encounter, TYVM. <p/>
+  Released under WTFPL license. <p/>
+  Link back and relax. <p/>
+  k, bye <p/><p/>
+  
+<g:plusone annotation="inline"></g:plusone>
+<div class="fb-like" data-send="false" data-width="450" data-show-faces="true" data-font="verdana"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) {return;}
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=213650408675997";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  
+  <small><small>Dedicated to my sweetheart - Monika McCollister Pirc! I love you! <code>* &lt;3</code></small></small>
+  
+</body>
+</html>
